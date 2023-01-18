@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+}
+.left{
+    background-color: rgb(15, 15, 15);
+    width: 20%;
+    height: 39.7rem;
+}
+.right{
+    width: 80%;
+    height: 39.7rem;
+    background-image: url('back.jpg');
+    background-size: cover;
+   
+}
+.text{
+    color: aliceblue;
+    position: absolute;
+    top:12rem;
+    right: 10rem;
+    font-family: 'Opens Sans',sans-serif;
+    font-size: 24px;
+}
+.cover{
+    background-color: black;
+    position: absolute;
+    width: 80%;
+    height: 39.7rem;
+    opacity: 65%;
+
+}
+.pImage{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 6px solid rgb(100, 99, 99);
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    background-image: url('profile.jpg');
+    background-size: contain;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 18px;
+}
+#active, a:hover{
+    color: rgb(33, 172, 33);
+}
+.profilename{
+    color: aliceblue;
+    font-family: 'Opens sans',sans-serif;
+    text-align: center;
+    font-size: 24px;
+    
+}
+.mainTopic{
+    font-family: 'Opens Sans',sans-serif;
+    padding-top: 20px;
+    font-size:60px ;
+    
+}
+img{
+    padding-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.contact{
+    height: 45rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+form{
+    margin-left: 15rem;
+    margin-top: 3.5rem;
+    font-family: 'Opens sans',sans-serif;
+}
+input{
+    width: 40rem;
+    height: 2.5rem;
+    padding-left: 2rem;
+}
+#submit{
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(0, 70, 223);
+    color: aliceblue;
+    font-family: 'Opens sans',sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 18rem;
+    padding-right: 2rem;
+}
+.head-service{
+    padding-top: 3rem;
+    font-family: 'Opens sans',sans-serif;
+    color: rgb(85, 83, 83);
+    font-size: 28px;
+    width: 20%;
+    padding-left: 30rem;
+   
+}
